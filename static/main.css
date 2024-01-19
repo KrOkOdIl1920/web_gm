@@ -1,0 +1,74 @@
+body {
+  padding: 0px;
+  font-family: Arial, sans-serif;
+  background-size: cover;
+  background-color: #e5e5e5;
+}
+
+.links {
+  color: aliceblue;
+  width: 70%;
+  position: absolute;
+  left: 15%;
+  display: -webkit-inline-flex;
+  border-bottom: 3px solid #459c86;
+}
+
+.logo {
+  text-decoration: none;
+}
+
+.info_org {
+  text-decoration: none;
+  color: #459c86;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 50px;
+  font-size: 19px;
+  font-style: italic;
+  font-weight: bold;
+  margin-left: 21%;
+}
+
+.info_org:hover {
+  color: #12725a;
+}
+
+.name {
+  color: aqua;
+  background-color: rgb(213, 216, 217);
+  display: inline-block;
+  position: absolute;
+  left: 15%;
+  top: 19%;
+}
+
+.name_img {
+  width: 300px;
+}
+
+.name_name {
+  color: aqua;
+}
+
+.work {
+  color: red;
+}
+
+.mail {
+  color: blue;
+}
+
+.lessons {
+  background-color: aqua;
+  position: absolute;
+  right: 10%;
+  top: 26%;
+}
+
+.lessons_title {
+  color: red;
+}
+
+.list {
+  color: purple;
+}

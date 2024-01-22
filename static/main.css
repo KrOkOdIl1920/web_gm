@@ -41,10 +41,16 @@ body {
   position: absolute;
   left: 15%;
   top: 19%;
+  text-align: center;
+  border: 2px;
+  padding: 10px;
+  border-radius: 20px;
 }
 
 .name_img {
-  width: 300px;
+  width: 250px;
+  border-style: solid;
+  border-color: #459c86;
 }
 
 .name_name {
@@ -184,8 +190,8 @@ body {
   }
 
   .name {
-    left: 10%;
-    top: 25%;
+    left: 6%;
+    top: 21%;
     width: 40%;
     text-align: center;
     border: 2px;
@@ -200,9 +206,9 @@ body {
   }
 
   .lessons {
-    right: 10%;
-    top: 25%;
-    width: 28%;
+    right: 5%;
+    top: 21%;
+    width: 32%;
     padding: 10px;
     word-break: break-word;
     background-color: rgb(213, 216, 217);
@@ -222,7 +228,7 @@ body {
     color: #459c86;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 50px;
-    font-size: 17px;
+    font-size: 14px;
     font-style: italic;
     font-weight: bold;
     margin-left: 0%;
@@ -237,7 +243,17 @@ body {
     font-size: 14px;
     font-style: italic;
     font-weight: bold;
-    line-height: 25px;
-    text-align: -webkit-auto;
+    line-height: 23px;
+    text-align: center;
+    margin-left: -35%;
+    list-style: none;
+    border-bottom-style: solid;
+  }
+
+  .lessons_title {
+    color: #459c86;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
   }
 }

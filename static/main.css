@@ -8,9 +8,9 @@ body {
 
 .links {
   color: aliceblue;
-  width: 70%;
+  width: 90%;
   position: absolute;
-  left: 15%;
+  left: 5%;
   display: -webkit-inline-flex;
   border-bottom: 3px solid #459c86;
 }
@@ -102,6 +102,27 @@ body {
   border-bottom-style: solid;
 }
 
+.view {
+  margin: 0px;
+}
+
+.info_learn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #b4b4b4;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  font-style: italic;
+  font-weight: bold;
+  margin-top: 46%;
+  margin-right: 42%;
+}
+
 /* Styles for devices with a maximum width of 1200px */
 @media screen and (max-width: 1200px) {
   .links {
@@ -190,35 +211,34 @@ body {
   .links {
     width: 90%;
     display: block;
-    left: 6%;
+    left: 5%;
   }
 
   .name {
-    left: 5%;
-    top: 21%;
-    width: 40%;
+    width: 80%;
     text-align: center;
     border: 2px;
     padding: 10px;
     border-radius: 20px;
+    position: initial;
   }
 
   .name_img {
-    width: 75%;
+    width: 64%;
     border-style: solid;
     border-color: #459c86;
   }
 
   .lessons {
-    right: 5%;
-    top: 21%;
-    width: 38%;
+    width: 80%;
     padding: 10px;
     word-break: break-word;
     background-color: rgb(213, 216, 217);
     border-radius: 25px;
     border-color: #459c86;
     border-style: solid;
+    position: initial;
+    margin-top: 5%;
   }
 
   .logo {
@@ -231,7 +251,7 @@ body {
     text-decoration: none;
     color: #459c86;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    line-height: 50px;
+    line-height: 21px;
     font-size: 14px;
     font-style: italic;
     font-weight: bold;
@@ -249,7 +269,7 @@ body {
     font-weight: bold;
     line-height: 23px;
     text-align: center;
-    margin-left: -29%;
+    margin-left: -12%;
     list-style: none;
     border-bottom-style: solid;
   }
@@ -259,5 +279,17 @@ body {
     font-size: 15px;
     font-style: italic;
     font-weight: bold;
+  }
+
+  .view {
+    margin-top: 33%;
+    display: inline-block;
+    text-align: -webkit-center;
+  }
+
+  .info_learn {
+    margin-top: 5%;
+    width: 75%;
+    margin-right: 0%;
   }
 }

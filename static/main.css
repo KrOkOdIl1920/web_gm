@@ -3,6 +3,7 @@ body {
   font-family: Arial, sans-serif;
   background-size: cover;
   background-color: #e5e5e5;
+  text-align: center;
 }
 
 .links {
@@ -47,15 +48,28 @@ body {
 }
 
 .name_name {
-  color: aqua;
+  color: #459c86;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+  padding: 8px;
 }
 
 .work {
-  color: red;
+  color: #3b8774;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: bold;
+  padding: 3px;
+  text-decoration: underline;
 }
 
 .mail {
-  color: blue;
+  color: #459c86;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: bold;
+  padding: 4px;
 }
 
 .lessons {
@@ -106,8 +120,8 @@ body {
 /* Styles for devices with a maximum width of 900px */
 @media screen and (max-width: 998px) {
   .links {
-    width: 80%;
-    display: inline-block;
+    width: 100%;
+    display: contents;
   }
 
   .name {
@@ -134,6 +148,7 @@ body {
   .logo {
     text-align: center;
     margin-top: 2%;
+    width: -webkit-fill-available;
   }
   
   .info_org {
@@ -157,5 +172,72 @@ body {
     font-style: italic;
     font-weight: bold;
     line-height: 35px;
+  }
+}
+
+/* Styles for devices with a maximum width of 576px */
+@media screen and (max-width: 576px) {
+  .links {
+    width: 90%;
+    display: block;
+    left: 6%;
+  }
+
+  .name {
+    left: 10%;
+    top: 25%;
+    width: 40%;
+    text-align: center;
+    border: 2px;
+    padding: 10px;
+    border-radius: 20px;
+  }
+
+  .name_img {
+    width: 75%;
+    border-style: solid;
+    border-color: #459c86;
+  }
+
+  .lessons {
+    right: 10%;
+    top: 25%;
+    width: 28%;
+    padding: 10px;
+    word-break: break-word;
+    background-color: rgb(213, 216, 217);
+    border-radius: 25px;
+    border-color: #459c86;
+    border-style: solid;
+  }
+
+  .logo {
+    text-align: center;
+    margin-top: 2%;
+    width: -webkit-fill-available;
+  }
+  
+  .info_org {
+    text-decoration: none;
+    color: #459c86;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 50px;
+    font-size: 17px;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: 0%;
+  }
+  
+  .info_org:hover {
+    color: #12725a;
+  }
+
+  .list {
+    color: #459c86;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 25px;
+    text-align: -webkit-auto;
   }
 }

@@ -194,7 +194,7 @@ body {
   }
 
   .name {
-    left: 6%;
+    left: 5%;
     top: 21%;
     width: 40%;
     text-align: center;
@@ -212,7 +212,7 @@ body {
   .lessons {
     right: 5%;
     top: 21%;
-    width: 32%;
+    width: 38%;
     padding: 10px;
     word-break: break-word;
     background-color: rgb(213, 216, 217);
@@ -244,12 +244,12 @@ body {
 
   .list {
     color: #459c86;
-    font-size: 14px;
+    font-size: 13px;
     font-style: italic;
     font-weight: bold;
     line-height: 23px;
     text-align: center;
-    margin-left: -35%;
+    margin-left: -29%;
     list-style: none;
     border-bottom-style: solid;
   }

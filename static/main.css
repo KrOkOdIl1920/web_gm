@@ -35,12 +35,11 @@ body {
 }
 
 .name {
-  color: aqua;
   background-color: rgb(213, 216, 217);
   display: inline-block;
   position: absolute;
   left: 15%;
-  top: 19%;
+  top: 10%;
   text-align: center;
   border: 2px;
   padding: 10px;
@@ -80,22 +79,27 @@ body {
 
 .lessons {
   position: absolute;
-  right: 10%;
-  top: 26%;
+  right: 15%;
+  top: 10%;
+  width: 38%;
 }
 
 .lessons_title {
-  color: #459c86;
-  font-size: 19px;
+  color: #398471;
+  font-size: 42px;
   font-style: italic;
   font-weight: bold;
 }
 
 .list {
   color: #459c86;
-  font-size: 19px;
+  font-size: 24px;
   font-style: italic;
   font-weight: bold;
+  line-height: 38px;
+  text-align: center;
+  list-style: none;
+  border-bottom-style: solid;
 }
 
 /* Styles for devices with a maximum width of 1200px */

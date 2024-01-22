@@ -87,7 +87,10 @@ body {
 
   .name {
     left: 10%;
-    top: 20%;
+    top: 12%;
+    width: 40%;
+    text-align: center;
+    border: 2px;
   }
 
   .name_img {
@@ -107,13 +110,23 @@ body {
     display: inline-block;
   }
 
+  .name {
+    left: 10%;
+    top: 12%;
+    width: 40%;
+    text-align: center;
+    border: 2px;
+  }
+
   .name_img {
     width: 250px;
+    border-style: solid;
+    border-color: #459c86;
   }
 
   .lessons {
     right: 10%;
-    top: 20%;
+    top: 11%;
     width: 30%;
     padding: 18px;
   }
@@ -136,5 +149,13 @@ body {
   
   .info_org:hover {
     color: #12725a;
+  }
+
+  .list {
+    color: #459c86;
+    font-size: 19px;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 35px;
   }
 }

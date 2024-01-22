@@ -59,16 +59,82 @@ body {
 }
 
 .lessons {
-  background-color: aqua;
   position: absolute;
   right: 10%;
   top: 26%;
 }
 
 .lessons_title {
-  color: red;
+  color: #459c86;
+  font-size: 19px;
+  font-style: italic;
+  font-weight: bold;
 }
 
 .list {
-  color: purple;
+  color: #459c86;
+  font-size: 19px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* Styles for devices with a maximum width of 1200px */
+@media screen and (max-width: 1200px) {
+  .links {
+    width: 80%;
+    left: 10%;
+  }
+
+  .name {
+    left: 10%;
+    top: 20%;
+  }
+
+  .name_img {
+    width: 300px;
+  }
+
+  .lessons {
+    right: 2%;
+    top: 28%;
+  }
+}
+
+/* Styles for devices with a maximum width of 900px */
+@media screen and (max-width: 998px) {
+  .links {
+    width: 80%;
+    display: inline-block;
+  }
+
+  .name_img {
+    width: 250px;
+  }
+
+  .lessons {
+    right: 10%;
+    top: 20%;
+    width: 30%;
+    padding: 18px;
+  }
+
+  .logo {
+    text-align: center;
+    margin-top: 2%;
+  }
+  
+  .info_org {
+    text-decoration: none;
+    color: #459c86;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 50px;
+    font-size: 28px;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: 10%;
+  }
+  
+  .info_org:hover {
+    color: #12725a;
+  }
 }
